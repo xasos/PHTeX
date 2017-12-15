@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 # The Posthaven Modern Theme
 
 ## Sceenshot
@@ -39,3 +40,10 @@ Watch `src/blog.scss` and build on update:
 ```
 rake watch
 ```
+=======
+# PHTeX
+A Posthaven theme. 
+
+## License
+[MIT License](LICENSE)
+>>>>>>> 42c38371630e761a7a312655de91d3f0b57ae2cd
