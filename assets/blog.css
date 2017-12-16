@@ -24,6 +24,12 @@ summary {
     src: url("fonts/cmunrm.woff") format('woff');
 }
 
+#blog-title-link {
+  a:hover {
+    text-decoration: underline;
+  }
+}
+
 /**
  * Correct `inline-block` display not defined in IE 8/9.
  */
