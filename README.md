@@ -1,7 +1,8 @@
-<<<<<<< HEAD
-# The Posthaven Modern Theme
+=======
+# PHTeX
+Posthaven theme based on the [Modern](https://github.com/posthaven/modern-theme) Posthaven, styled to look like LaTeX. Inspired by [Colah's blog](http://colah.github.io/).
 
-## Sceenshot
+## Screenshot
 
 ![Screenshot](/assets/screenshot.png?raw=true)
 
@@ -9,7 +10,6 @@
 
 * [Posthaven theme documentation](http://theme-docs.posthaven.com/)
 * See the [posthaven_theme](https://github.com/posthaven/posthaven_theme) gem for theme file upload via the API.
-
 
 ## Building Stylesheets
 
@@ -40,10 +40,16 @@ Watch `src/blog.scss` and build on update:
 ```
 rake watch
 ```
-=======
-# PHTeX
-A Posthaven theme. 
+
+## Deploying to Posthaven
+Instructions can also be found [here](https://theme-docs.posthaven.com/). Grab an API key [here](https://posthaven.com/account/theme_api_key).
+```
+gem install posthaven_theme
+git clone https://github.com/xasos/PHTeX.git
+cd PHTeX
+phtheme configure YOUR_API_KEY
+phtheme upload
+```
 
 ## License
 [MIT License](LICENSE)
->>>>>>> 42c38371630e761a7a312655de91d3f0b57ae2cd
