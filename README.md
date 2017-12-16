@@ -10,6 +10,16 @@ Posthaven theme based on the [Modern theme](https://github.com/posthaven/modern-
 * [Posthaven theme documentation](http://theme-docs.posthaven.com/)
 * See the [posthaven_theme](https://github.com/posthaven/posthaven_theme) gem for theme file upload via the API.
 
+## Deploying Theme to Posthaven
+Instructions can also be found [here](https://theme-docs.posthaven.com/). Grab an API key [here](https://posthaven.com/account/theme_api_key).
+```
+gem install posthaven_theme
+git clone https://github.com/xasos/PHTeX.git
+cd PHTeX
+phtheme configure YOUR_API_KEY
+phtheme upload
+```
+
 ## Building Stylesheets
 
 ### Install Gems
@@ -38,16 +48,6 @@ Watch `src/blog.scss` and build on update:
 
 ```
 rake watch
-```
-
-## Deploying to Posthaven
-Instructions can also be found [here](https://theme-docs.posthaven.com/). Grab an API key [here](https://posthaven.com/account/theme_api_key).
-```
-gem install posthaven_theme
-git clone https://github.com/xasos/PHTeX.git
-cd PHTeX
-phtheme configure YOUR_API_KEY
-phtheme upload
 ```
 
 ## License
