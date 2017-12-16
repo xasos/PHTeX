@@ -1,5 +1,5 @@
 # PHTeX
-Posthaven theme based on the [Modern](https://github.com/posthaven/modern-theme) Posthaven, styled to look like LaTeX. Inspired by [Colah's blog](http://colah.github.io/).
+Posthaven theme based on the [Modern theme](https://github.com/posthaven/modern-theme), styled to look like LaTeX. Inspired by [Colah's blog](http://colah.github.io/).
 
 ## Screenshot
 
